@@ -25,7 +25,7 @@
  * authors and should not be interpreted as representing official policies, either expressed
  * or implied, of Michael Hoffer <info@michaelhoffer.de>.
  */
-package eu.mihosoft.vrl.javaone2013.plot2d.v2;
+package eu.mihosoft.vrl.javaone2013.plot2d;
 
 import eu.mihosoft.vrl.workflow.Connector;
 import eu.mihosoft.vrl.workflow.FlowFactory;

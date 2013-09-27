@@ -28,6 +28,6 @@
     <TextField id="resolutionTextField" fx:id="paramTextField" alignment="CENTER" editable="false" layoutY="117.0" onAction="#onAction" prefHeight="28.999900000002526" prefWidth="86.0" promptText="" styleClass="input-field" text="1" AnchorPane.leftAnchor="57.5" AnchorPane.rightAnchor="57.5" />
   </children>
   <stylesheets>
-    <URL value="@../resources/default.css" />
+    <URL value="@resources/default.css" />
   </stylesheets>
 </AnchorPane>

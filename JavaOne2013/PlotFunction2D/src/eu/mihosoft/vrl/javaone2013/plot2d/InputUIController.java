@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package eu.mihosoft.vrl.javaone2013.plot2d.v2;
+package eu.mihosoft.vrl.javaone2013.plot2d;
 
 import java.net.URL;
 import java.text.DecimalFormat;

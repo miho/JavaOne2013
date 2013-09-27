@@ -25,18 +25,12 @@
  * authors and should not be interpreted as representing official policies, either expressed
  * or implied, of Michael Hoffer <info@michaelhoffer.de>.
  */
-package eu.mihosoft.vrl.javaone2013.plot2d.v2;
+package eu.mihosoft.vrl.javaone2013.plot2d;
 
 import eu.mihosoft.vrl.workflow.VFlow;
-import eu.mihosoft.vrl.workflow.VFlowModel;
 import eu.mihosoft.vrl.workflow.VNode;
 import eu.mihosoft.vrl.workflow.fx.FXSkinFactory;
-import eu.mihosoft.vrl.workflow.fx.FXFlowNodeSkinBase;
-import eu.mihosoft.vrl.workflow.fx.ScalableContentPane;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Node;
-import javafx.scene.layout.GridPane;
 import jfxtras.labs.scene.control.gauge.Gauge;
 import jfxtras.labs.scene.control.gauge.Lcd;
 import jfxtras.labs.scene.control.gauge.LcdBuilder;
