@@ -32,3 +32,10 @@ On Windows:
 ## Running The Subprojects
 
 Each subproject can be executed separately by calling `./gradlew run` in the corresponding subdirectory.
+
+## Contributions
+
+This project makes use of third-party libraries. Thanks to all authors for sharing their code!
+
+The LCD display has been created by Gerrit Grunwald (@hansolo_) and is available in his
+[Enzo](https://github.com/HanSolo/Enzo) library.
