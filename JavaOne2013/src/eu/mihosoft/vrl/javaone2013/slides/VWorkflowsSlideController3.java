@@ -115,7 +115,7 @@ public class VWorkflowsSlideController3 implements Initializable {
         demoPane.getStyleClass().setAll("vflow-background");
 
         demoPane.getChildren().clear();
-        Pane p = eu.mihosoft.vrl.javaone2013.plot2d.v2.Main.embedSlide();
+        Pane p = eu.mihosoft.vrl.javaone2013.plot2d.Main.embedSlide();
         demoPane.getChildren().add(p);
     }
 

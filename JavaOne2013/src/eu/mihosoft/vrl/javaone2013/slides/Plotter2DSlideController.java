@@ -6,7 +6,7 @@
 package eu.mihosoft.vrl.javaone2013.slides;
 
 import eu.mihosoft.vrl.javaone2013.Slide;
-import eu.mihosoft.vrl.javaone2013.plot2d.v2.Main;
+import eu.mihosoft.vrl.javaone2013.plot2d.Main;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
