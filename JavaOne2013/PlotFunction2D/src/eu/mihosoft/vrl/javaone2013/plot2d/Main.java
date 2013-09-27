@@ -76,8 +76,6 @@ public class Main extends Application {
         VNode plotter1 = createPlotterNode(flow, "Plotter");
         plotter1.setX(600);
         plotter1.setY(180);
-        
-        createPlotterNode(flow, "Plotter");
 
         // show the main stage/window
         showFlow(flow, primaryStage, "VWorkflows Tutorial 05: View 1");
