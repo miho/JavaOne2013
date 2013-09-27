@@ -33,7 +33,7 @@ On Windows:
 
 ## Running The Subprojects
 
-Each subproject can be executed separately by calling `./gradlew run` in the corresponding subdirectory.
+The `PlotFunction2D` and `PlotFunction3D` subprojects can be executed separately by calling `./gradlew run` in the corresponding subdirectory.
 
 ## Contributions
 
