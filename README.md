@@ -39,5 +39,5 @@ The `PlotFunction2D` and `PlotFunction3D` subprojects can be executed separately
 
 This project makes use of third-party libraries. Thanks to all authors for sharing their code!
 
-The LCD display has been created by Gerrit Grunwald (@hansolo_) and is available in his
+The LCD display has been created by Gerrit Grunwald (@hansolo_) and is available as part of his
 [Enzo](https://github.com/HanSolo/Enzo) library.
