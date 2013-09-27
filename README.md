@@ -1,7 +1,7 @@
-JavaOne2013
-===========
+JavaOne2013 (Democode for TUT6705)
+==================================
 
-Democode for TUT6705
+<img src="http://farm4.staticflickr.com/3728/9966367865_548ef4e313_z.jpg">
 
 ## Requirements:
 
