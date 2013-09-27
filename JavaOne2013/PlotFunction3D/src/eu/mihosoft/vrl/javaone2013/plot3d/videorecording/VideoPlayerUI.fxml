@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="-1.0" minWidth="162.0" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: transparent;&#10;" xmlns:fx="http://javafx.com/fxml" fx:controller="eu.mihosoft.vrl.javaone2013.plot3d.videorecording.VideoPlayerUIController">
+  <children>
+    <StackPane fx:id="contentPane" layoutX="0.0" layoutY="0.0" prefHeight="252.0" prefWidth="400.0" />
+    <Pane fx:id="glassPane" prefHeight="252.0" prefWidth="400.0" AnchorPane.bottomAnchor="48.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Button fx:id="recordBtn" mnemonicParsing="false" onAction="#onPlayPressed" style="-fx-font-size: 13;" text="Play" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="167.0" AnchorPane.rightAnchor="167.0" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/default.css" />
+  </stylesheets>
+</AnchorPane>

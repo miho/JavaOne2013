@@ -1,0 +1,61 @@
+.control-background {
+    -fx-background-color: 
+    linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.45) 100%);
+}
+
+.back-btn {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-back-01.png");
+    -fx-background-size: stretch;
+}
+
+.back-btn:pressed {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-back-01-active.png");
+    -fx-background-size: stretch;
+}
+
+
+.back-btn:hover {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-back-01-active.png");
+    -fx-background-size: stretch;
+}
+
+.next-btn {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-next-01.png");
+    -fx-background-size: stretch;
+}
+
+.next-btn:pressed {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-next-01-active.png");
+    -fx-background-size: stretch;
+}
+
+.next-btn:hover {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-next-01-active.png");
+}
+
+.index-btn {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-index-01.png");
+    -fx-background-size: stretch;
+}
+
+.index-btn:pressed {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-index-01-active.png");
+    -fx-background-size: stretch;
+}
+
+.index-btn:hover {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-image: url("button-index-01-active.png");
+}
+
+
+
+

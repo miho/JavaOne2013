@@ -1,0 +1,63 @@
+.slide-background {
+    -fx-background-image: url("slide-background-light-01.png"), url("muschellinie-opt.png"), url("stw.png");
+    -fx-background-size: stretch, 120, 120;
+    -fx-background-repeat: no-repeat,no-repeat,no-repeat;
+    -fx-background-position: 0 0, 2% 98%, 98% 98%;
+}
+
+.index-slide-background {
+    -fx-background-image: url("background-light-index-01.png");
+    -fx-background-size: stretch;
+}
+
+.vflow-background {
+    -fx-background-color: linear-gradient(to top, rgb(50,50,50), rgb(110,110,120));
+}
+
+/*
+.slide-index-background:hover {
+
+}
+*/
+
+.slide-index-foreground {
+
+    -fx-background-color: rgba(0,0,0,0.5);
+}
+
+.slide-index-foreground:hover {
+    -fx-background-color: rgba(0,0,0,0.0);
+}
+
+
+.function-input {
+    -fx-background-image: url("function-input-output-01.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+.function-symbol {
+    -fx-background-image: url("function-symbol-01.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.function-arrow {
+    -fx-background-image: url("function-arrow-01.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    /*-fx-shape: "m 621.70874,329.3574 a 2.1254139,2.1254139 0 0 0 0.90163,1.61095 c 4.52221,3.16767 9.17123,5.8202 13.29628,8.95637 a 2.1254139,2.1254139 0 0 0 3.37815,-1.34646 c 0.27499,-1.65672 0.006,-3.09551 -0.0361,-4.24377 -0.0234,-0.65303 0.03,-1.10875 0.12023,-1.47868 5.55833,-0.45311 11.37569,-0.11764 17.28756,-0.12026 0.048,0 0.0962,8e-5 0.14427,0 0.044,8e-5 0.0882,0 0.13223,0 5.91191,0.003 11.72927,-0.33285 17.2876,0.12026 0.0903,0.36993 0.14376,0.82565 0.12018,1.47868 -0.0414,1.14826 -0.311,2.58705 -0.0361,4.24377 a 2.1254139,2.1254139 0 0 0 3.37819,1.34646 c 4.12501,-3.13617 8.77403,-5.7887 13.29624,-8.95637 a 2.1254139,2.1254139 0 0 0 -0.0481,-3.52246 c -4.37064,-2.85892 -8.94783,-6.0513 -13.32032,-8.78802 a 2.1254139,2.1254139 0 0 0 -3.25794,1.70711 c -0.099,2.13156 0.1175,3.8973 -0.0481,5.12135 -5.65632,0.39132 -11.46155,0.14815 -17.37174,0.16831 -0.044,-2.3e-4 -0.0882,1.9e-4 -0.13222,0 -0.048,1.9e-4 -0.0962,-2.3e-4 -0.14426,0 -5.91015,-0.02 -11.71543,0.22301 -17.37175,-0.16831 -0.16553,-1.22405 0.051,-2.98979 -0.0481,-5.12135 a 2.1254139,2.1254139 0 0 0 -3.25793,-1.70711 c -4.37245,2.73672 -8.94964,5.9291 -13.32032,8.78802 a 2.1254139,2.1254139 0 0 0 -0.94972,1.91151 z";*/
+    /*-fx-border-color: black;*/
+    /*-fx-border-width: 5px;*/
+}
+
+.groovyshell-01 {
+    -fx-background-color: transparent;
+    -fx-background-image: url("groovy-shell-01.png");
+    -fx-background-size: 95%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-padding: 100px;
+}

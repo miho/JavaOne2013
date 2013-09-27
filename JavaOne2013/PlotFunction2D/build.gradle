@@ -1,0 +1,68 @@
+apply from: 'jdkdetect.gradle'
+
+apply from: 'lib/gradle/javafx.plugin'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots"
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.8'
+}
+
+//configurations.all {
+//    resolutionStrategy.cacheDynamicVersionsFor 0, 'minutes'
+//}
+//
+//configurations.all {
+//    resolutionStrategy.cacheChangingModulesFor 0, 'hours'
+//}
+
+dependencies {
+     compile ( 'eu.mihosoft.vrl.workflow-8.0:vworkflows-fx:0.1-r1-SNAPSHOT' ) { changing = true }
+     compile "org.codehaus.groovy:groovy:2.1.3"
+     
+    compile project (":MathUtils")
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/']
+        }
+        
+        resources {
+            srcDirs = ['src/']
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ['test/']
+        }
+    }
+}
+
+javafx {
+    mainClass "eu.mihosoft.vrl.javaone2013.plot2d.Main"
+}
+
+jfxDeploy {
+    packaging = "image"
+}
+
+tasks.withType(Compile) {
+    options.encoding = 'UTF-8'
+}
+
+//configurations.all {
+//    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+//}
+
+
+
+

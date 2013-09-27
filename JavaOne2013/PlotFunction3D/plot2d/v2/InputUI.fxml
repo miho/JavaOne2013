@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="-1.0" minWidth="162.0" prefHeight="200.00009999999747" prefWidth="201.0" style="-fx-background-color: transparent;&#10;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="eu.mihosoft.vrl.javaone2013.plot2d.v2.InputUIController">
+  <children>
+    <Label alignment="CENTER" layoutY="1.0" prefHeight="29.0" prefWidth="191.0" text="f(x)=" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+      <font>
+        <Font size="20.0" fx:id="x1" />
+      </font>
+      <textFill>
+        <Color blue="0.624" green="0.624" red="0.624" fx:id="x2" />
+      </textFill>
+    </Label>
+    <TextField fx:id="functionTextField" alignment="CENTER" layoutY="30.0" onAction="#onAction" prefHeight="56.0" prefWidth="200.0" promptText="" styleClass="input-field" text="sin(x)" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+    <Label alignment="CENTER" font="$x1" layoutY="107.0" prefHeight="29.0" prefWidth="191.0" text="resolution" textAlignment="CENTER" textFill="$x2" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+    <TextField fx:id="resolutionTextField" alignment="CENTER" layoutY="136.0" onAction="#onAction" prefHeight="56.0" prefWidth="200.0" promptText="" styleClass="input-field" text="80" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/default.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="-1.0" prefHeight="1024.0" prefWidth="1280.0" style="-fx-background-color: transparent;&#10;-fx-padding: 0 0 -100 0;" xmlns:fx="http://javafx.com/fxml" fx:controller="eu.mihosoft.vrl.javaone2013.slides.Controls2DSlideController">
+  <children>
+    <VBox prefHeight="1024.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+          <children>
+            <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="638.0" prefWidth="1280.0" text="" textAlignment="CENTER" textFill="#404040" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <font>
+                <Font name="Droid Serif Bold" size="64.0" />
+              </font>
+            </Label>
+          </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+          <children>
+            <Button layoutX="53.0" layoutY="40.0" mnemonicParsing="false" text="Button" />
+            <CheckBox layoutX="256.0" layoutY="43.0" mnemonicParsing="false" text="CheckBox" />
+            <ComboBox layoutX="53.0" layoutY="78.0">
+              <items>
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Item 1" />
+                  <String fx:value="Item 2" />
+                  <String fx:value="Item 3" />
+                </FXCollections>
+              </items>
+            </ComboBox>
+            <Slider layoutX="477.0" layoutY="45.0" />
+            <TextField layoutX="477.0" layoutY="78.0" prefWidth="200.0" text="Text" />
+            <RadioButton layoutX="256.0" layoutY="79.0" mnemonicParsing="false" text="RadioButton" />
+            <LineChart fx:id="linechart" alternativeRowFillVisible="true" createSymbols="true" horizontalGridLinesVisible="true" horizontalZeroLineVisible="true" layoutX="718.0" layoutY="42.0" title="Linechart" verticalGridLinesVisible="true" verticalZeroLineVisible="true">
+              <xAxis>
+                <NumberAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <Circle fill="#afd8ff" layoutX="153.0" layoutY="317.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2ffd9" height="200.0" layoutX="354.0" layoutY="217.0" stroke="BLACK" strokeType="INSIDE" style=" " width="200.0" />
+          </children>
+        </AnchorPane>
+      </children>
+    </VBox>
+  </children>
+  <stylesheets>
+    <URL value="@../resources/slide-style-light.css" />
+  </stylesheets>
+</AnchorPane>

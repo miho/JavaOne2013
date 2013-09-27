@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-1.0" prefHeight="150.0" prefWidth="782.0" style="&#10;" xmlns:fx="http://javafx.com/fxml" fx:controller="eu.mihosoft.vrl.javaone2013.PresentationControlController">
+  <children>
+    <ImageView fx:id="blurView" fitHeight="150.0" fitWidth="782.0" pickOnBounds="true" preserveRatio="false" style="" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <HBox prefHeight="-1.0" prefWidth="600.0" style="" styleClass="control-background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <StackPane prefHeight="150.0" prefWidth="-1.0" HBox.hgrow="ALWAYS">
+          <children>
+            <Button fx:id="prevSlideBtn" mnemonicParsing="false" onAction="#onPrevSlide" prefHeight="102.0" prefWidth="96.0" style="" styleClass="back-btn" text="" />
+          </children>
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="-1.0" HBox.hgrow="ALWAYS">
+          <children>
+            <Button fx:id="indexBtn" mnemonicParsing="false" onAction="#onIndexSlide" prefHeight="96.0" prefWidth="96.0" styleClass="index-btn" text="" />
+          </children>
+        </StackPane>
+        <StackPane prefHeight="150.0" prefWidth="-1.0" HBox.hgrow="ALWAYS">
+          <children>
+            <Button fx:id="nextSlideBtn" mnemonicParsing="false" onAction="#onNextSlide" prefHeight="102.0" prefWidth="96.0" styleClass="next-btn" text="" />
+          </children>
+        </StackPane>
+      </children>
+    </HBox>
+  </children>
+  <stylesheets>
+    <URL value="@resources/presentation-control.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="-1.0" prefHeight="1024.0" prefWidth="1280.0" style="-fx-background-color: transparent;&#10;-fx-padding: 0 0 -100 0;" xmlns:fx="http://javafx.com/fxml" fx:controller="eu.mihosoft.vrl.javaone2013.slides.VWorkflowsSlideController1">
+  <children>
+    <VBox prefHeight="1024.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <AnchorPane fx:id="demoPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent;&#10;" VBox.vgrow="ALWAYS" />
+        <SplitPane dividerPositions="0.005319148936170213" focusTraversable="true" orientation="VERTICAL" prefHeight="-1.0" prefWidth="1280.0" style="-fx-background-color: transparent;" VBox.vgrow="ALWAYS">
+          <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+              <children>
+                <HBox prefHeight="409.0" prefWidth="1278.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <children>
+                    <AnchorPane fx:id="editorPane" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                      <children>
+                        <Button fx:id="runBtn" mnemonicParsing="false" onAction="#onCompile" prefWidth="192.0" text="Run" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="500.0" />
+                        <Button fx:id="resetBtn" mnemonicParsing="false" onAction="#onReset" text="Panic Button" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="50.0" />
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS">
+                      <children>
+                        <TextArea fx:id="outputArea" blendMode="MULTIPLY" editable="false" prefHeight="366.0" prefWidth="447.0" style="-fx-background-color: transparent;" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                      </children>
+                    </AnchorPane>
+                  </children>
+                </HBox>
+              </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: transparent;">
+              <children>
+                <TextArea id="outputArea" fx:id="outputAreaErr" blendMode="MULTIPLY" editable="false" prefHeight="570.9999000000025" prefWidth="1278.0" style="-fx-background-color: transparent;&#10;-fx-font-size: 16px;&#10;-fx-font-family: monospace;&#10;-fx-font-weight: bold;" text="" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+              </children>
+            </AnchorPane>
+          </items>
+        </SplitPane>
+      </children>
+    </VBox>
+  </children>
+  <stylesheets>
+    <URL value="@../resources/slide-style-light.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,82 @@
+//apply from: 'https://repository-javafx-gradle-plugin.forge.cloudbees.com/snapshot/javafx.plugin'
+
+apply from: 'lib/gradle/javafx.plugin'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots"
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.5'
+}
+
+String javaVersion = System.getProperty("java.version")
+
+project.ext.set("jdk", 7)
+
+if (javaVersion.startsWith("1.7")) {
+    project.jdk=7;
+} else if (javaVersion.startsWith("1.8")) {
+    project.jdk=8;
+} else {
+    System.err.println("Unsupported JDK: " + javaVersion);
+}
+    
+println(">> using jdk " + javaVersion)
+
+
+dependencies {
+    compile "org.codehaus.groovy:groovy:2.1.3"
+    compile "com.google.guava:guava:14.0"
+    //compile "org.antlr:antlr4:4.0"
+    
+    compile fileTree (dir: 'lib/antlr', includes: ['*.jar'])
+    
+    // compile fileTree (dir: 'path-to-libdir', includes: ['*.jar'])
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/']
+        }
+        
+        resources {
+            srcDirs = ['src/']
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ['test/']
+        }
+    }
+}
+
+//compileJava {
+//    options.fork=true
+//    options.compilerArgs+="-Xlint:unchecked"
+//}
+
+
+
+//javafx {
+//    mainClass "eu.mihosoft.vrl.ide.Main"
+//}
+
+jfxDeploy {
+    packaging = "image"
+}
+
+//task antlr {
+//    def cmd = "java -jar lib/antlr/antlr-4.1-complete.jar -visitor src/eu/mihosoft/vrl/ide/Java.g4";
+//    
+//    def proc = cmd.execute(null,projectDir as File)
+//
+//    proc.in.eachLine {line -> println line}
+//    proc.err.eachLine {line -> System.err.println( 'ERROR: ' + line)}
+//    proc.waitFor()
+//}

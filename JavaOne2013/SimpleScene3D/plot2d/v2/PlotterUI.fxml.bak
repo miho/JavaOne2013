@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="-1.0" minWidth="162.0" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: transparent;&#10;" xmlns:fx="http://javafx.com/fxml" fx:controller="eu.mihosoft.vrl.javaone2013.plot2d.PlotterUIController">
+  <children>
+    <AnchorPane fx:id="contentPane" prefHeight="257.0" prefWidth="400.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Pane prefHeight="257.0" prefWidth="400.0" AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <StackPane prefHeight="43.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <children>
+        <Button mnemonicParsing="false" text="Plot" StackPane.alignment="CENTER" />
+      </children>
+    </StackPane>
+  </children>
+  <stylesheets>
+    <URL value="@resources/default.css" />
+  </stylesheets>
+</AnchorPane>

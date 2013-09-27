@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: transparent;&#10;" xmlns:fx="http://javafx.com/fxml" fx:controller="eu.mihosoft.vrl.javaone2013.slides.FunctionsSlideController">
+  <children>
+    <GridPane alignment="CENTER" prefHeight="1024.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-symbol-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-symbol-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-symbol-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-arrow-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-arrow-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-arrow-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-arrow-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-arrow-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-arrow-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.00009999999747" fitWidth="192.00009999999747" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-input-output-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.00009999999747" fitWidth="192.00009999999747" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-input-output-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.00009999999747" fitWidth="192.00009999999747" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-input-output-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.00009999999747" fitWidth="192.00009999999747" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-input-output-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.00009999999747" fitWidth="192.00009999999747" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-input-output-01.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="192.00009999999747" fitWidth="192.00009999999747" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+          <image>
+            <Image url="@../resources/function-input-output-01.png" />
+          </image>
+        </ImageView>
+        <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="256.0" text="X: Input" textAlignment="CENTER" textFill="#606060" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+          <font>
+            <Font name="Droid Sans Bold" size="32.0" fx:id="x1" />
+          </font>
+        </Label>
+        <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" prefWidth="256.0" text="Function" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+          <textFill>
+            <Color blue="0.376" green="0.376" red="0.376" fx:id="x2" />
+          </textFill>
+        </Label>
+        <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" prefWidth="256.0" text="f(x): Output" textAlignment="CENTER" textFill="$x2" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+        <TextField fx:id="functionInput" alignment="CENTER" onAction="#onChange" prefWidth="200.0" promptText="x*x" style="-fx-border-color: transparent;&#10;-fx-background-color: transparent;&#10;-fx-font-size: 32px;" text="x*x" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+          <GridPane.margin>
+            <Insets />
+          </GridPane.margin>
+        </TextField>
+        <TextField fx:id="valueInput1" alignment="CENTER" onAction="#onChange" prefWidth="200.0" promptText="1" style="-fx-border-color: transparent;&#10;-fx-background-color: transparent;&#10;-fx-font-size: 48px;&#10;&#10;" text="" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <TextField fx:id="valueInput2" alignment="CENTER" onAction="#onChange" prefWidth="200.0" promptText="2" style="-fx-border-color: transparent;&#10;-fx-background-color: transparent;&#10;-fx-font-size: 48px;&#10;&#10;" text="" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <TextField fx:id="valueInput3" alignment="CENTER" onAction="#onChange" prefWidth="200.0" promptText="3" style="-fx-border-color: transparent;&#10;-fx-background-color: transparent;&#10;-fx-font-size: 48px;&#10;&#10;" text="" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <TextField fx:id="valueOutput1" alignment="CENTER" editable="false" prefWidth="200.0" promptText="?" style="-fx-border-color: transparent;&#10;-fx-background-color: transparent;&#10;-fx-font-size: 48px;&#10;&#10;" text="" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <TextField fx:id="valueOutput2" alignment="CENTER" editable="false" prefWidth="200.0" promptText="?" style="-fx-border-color: transparent;&#10;-fx-background-color: transparent;&#10;-fx-font-size: 48px;&#10;&#10;" text="" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <TextField fx:id="valueOutput3" alignment="CENTER" editable="false" prefWidth="200.0" promptText="?" style="-fx-border-color: transparent;&#10;-fx-background-color: transparent;&#10;-fx-font-size: 48px;&#10;&#10;" text="" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+  <stylesheets>
+    <URL value="@../resources/slide-style-light.css" />
+  </stylesheets>
+</AnchorPane>

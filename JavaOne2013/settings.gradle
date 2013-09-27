@@ -1,0 +1,6 @@
+include "SyntaxHighlighter"
+include "MathUtils"
+include "PlotFunction2D"
+include "SimpleScene3D"
+include "PlotFunction3D"
+//project(":SyntaxHighlighter").projectDir = new File(settingsDir, "SyntaxHighlighter")

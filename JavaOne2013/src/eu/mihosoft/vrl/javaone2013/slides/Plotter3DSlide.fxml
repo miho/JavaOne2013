@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="-1.0" prefHeight="1024.0" prefWidth="1280.0" style="-fx-background-color: transparent;&#10;-fx-padding: 0 0 -100 0;" xmlns:fx="http://javafx.com/fxml" fx:controller="eu.mihosoft.vrl.javaone2013.slides.Plotter3DSlideController">
+  <children>
+    <StackPane fx:id="plotterContent" prefHeight="729.0" prefWidth="1057.0" AnchorPane.bottomAnchor="147.0" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="111.0" AnchorPane.topAnchor="148.0" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/slide-style-light.css" />
+  </stylesheets>
+</AnchorPane>
