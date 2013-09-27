@@ -35,9 +35,17 @@ On Windows:
 
 The `PlotFunction2D` and `PlotFunction3D` subprojects can be executed separately by calling `./gradlew run` in the corresponding subdirectory.
 
-## Contributions
+## Dependencies
+
+The window control comes from my VFXWindows project that is now part of the [JFXtras](http://jfxtras.org/).
+
+The workflow visualization was done with [VWorkflows](vworkflows.mihosoft.eu) that will eventually replace the current UI
+of [VRL-Studio](vrl-studio.mihosoft.eu) (an innovative visual programming IDE I develop since a few years).
+
+## Contributions:
 
 This project makes use of third-party libraries. Thanks to all authors for sharing their code!
 
 The LCD display has been created by Gerrit Grunwald (@hansolo_) and is available as part of his
 [Enzo](https://github.com/HanSolo/Enzo) library.
+
