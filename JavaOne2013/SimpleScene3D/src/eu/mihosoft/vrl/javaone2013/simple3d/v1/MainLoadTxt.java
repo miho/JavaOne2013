@@ -94,7 +94,7 @@ public class MainLoadTxt extends Application {
         root.getChildren().add(camera);
 
         // Setup a scene
-        Scene scene = new Scene(root, 400, 400, true, true);
+        Scene scene = new Scene(root, 400, 400, true);
         scene.setCamera(camera);
 
         //Add the scene to the stage and show the stage

@@ -42,12 +42,6 @@ import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
-import jfxtras.labs.scene.control.gauge.Gauge;
-import jfxtras.labs.scene.control.gauge.Lcd;
-import jfxtras.labs.scene.control.gauge.LcdBuilder;
-import jfxtras.labs.scene.control.gauge.LcdDesign;
-import jfxtras.labs.scene.control.gauge.StyleModel;
-import jfxtras.labs.scene.control.gauge.StyleModelBuilder;
 
 /**
  * Custom flownode skin. In addition to the basic node visualization from

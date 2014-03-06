@@ -31,12 +31,6 @@ import eu.mihosoft.vrl.workflow.VFlow;
 import eu.mihosoft.vrl.workflow.VNode;
 import eu.mihosoft.vrl.workflow.fx.FXSkinFactory;
 import javafx.scene.Node;
-import jfxtras.labs.scene.control.gauge.Gauge;
-import jfxtras.labs.scene.control.gauge.Lcd;
-import jfxtras.labs.scene.control.gauge.LcdBuilder;
-import jfxtras.labs.scene.control.gauge.LcdDesign;
-import jfxtras.labs.scene.control.gauge.StyleModel;
-import jfxtras.labs.scene.control.gauge.StyleModelBuilder;
 
 /**
  * Custom flownode skin. In addition to the basic node visualization from
@@ -54,32 +48,34 @@ public class IntegerFlowNodeSkin extends CustomFlowNodeSkinNew {
     @Override
     protected Node createView() {
 
-        // see jfxtras ensemble project for more sample code (gauges by @hansolo_)
-        // https://github.com/JFXtras/jfxtras-ensemble/tree/master/src/ensemble/samples
-        StyleModel style =
-                StyleModelBuilder.create()
-                .lcdDesign(LcdDesign.GREEN_BLACK)
-                .lcdValueFont(Gauge.LcdFont.LCD)
-                .lcdUnitStringVisible(true)
-                .lcdThresholdVisible(true)
-                .build();
+//         // see jfxtras ensemble project for more sample code (gauges by @hansolo_)
+//         // https://github.com/JFXtras/jfxtras-ensemble/tree/master/src/ensemble/samples
+//         StyleModel style =
+//                 StyleModelBuilder.create()
+//                 .lcdDesign(LcdDesign.GREEN_BLACK)
+//                 .lcdValueFont(Gauge.LcdFont.LCD)
+//                 .lcdUnitStringVisible(true)
+//                 .lcdThresholdVisible(true)
+//                 .build();
+// 
+//         Lcd lcd1 = LcdBuilder.create()
+//                 .styleModel(style)
+//                 .threshold(40)
+//                 .bargraphVisible(true)
+//                 .minMeasuredValueVisible(true)
+//                 .minMeasuredValueDecimals(3)
+//                 .maxMeasuredValueVisible(true)
+//                 .maxMeasuredValueDecimals(3)
+//                 .formerValueVisible(true)
+//                 .title("VWorkflows")
+//                 .unit("°C")
+//                 .value((Integer) getModel().getValueObject().getValue())
+//                 .build();
+// 
+//         lcd1.setPrefSize(250, 70);
+// 
+//         return lcd1;
 
-        Lcd lcd1 = LcdBuilder.create()
-                .styleModel(style)
-                .threshold(40)
-                .bargraphVisible(true)
-                .minMeasuredValueVisible(true)
-                .minMeasuredValueDecimals(3)
-                .maxMeasuredValueVisible(true)
-                .maxMeasuredValueDecimals(3)
-                .formerValueVisible(true)
-                .title("VWorkflows")
-                .unit("°C")
-                .value((Integer) getModel().getValueObject().getValue())
-                .build();
-
-        lcd1.setPrefSize(250, 70);
-
-        return lcd1;
+return null;
     }
 }

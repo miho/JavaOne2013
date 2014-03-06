@@ -97,7 +97,7 @@ public class Main extends Application {
         root.getChildren().add(camera);
 
         // Setup a scene
-        Scene scene = new Scene(root, 400, 400, false, true);
+        Scene scene = new Scene(root, 400, 400, false);
         scene.setCamera(camera);
 
         //Add the scene to the stage and show the stage

@@ -23,7 +23,7 @@ task wrapper(type: Wrapper) {
 //}
 
 dependencies {
-     compile ( 'eu.mihosoft.vrl.workflow-8.0:vworkflows-fx:0.1-r1-SNAPSHOT' ) { changing = true }
+     compile ( 'eu.mihosoft.vrl.workflow-8.0:vworkflows-fx:0.1-r2-SNAPSHOT' ) { changing = true }
      compile "org.codehaus.groovy:groovy:2.1.3"
 }
 
