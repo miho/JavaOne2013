@@ -39,7 +39,7 @@ The `PlotFunction2D` and `PlotFunction3D` subprojects can be executed separately
 
 ## Dependencies
 
-The window control comes from my VFXWindows project that is now part of the [JFXtras](http://jfxtras.org/).
+The window control comes from my VFXWindows project that is now part of [JFXtras](http://jfxtras.org/).
 
 The workflow visualization was done with [VWorkflows](http://vworkflows.mihosoft.eu) that will eventually replace the current UI
 of [VRL-Studio](http://vrl-studio.mihosoft.eu) (an innovative visual programming IDE I develop since a few years).
