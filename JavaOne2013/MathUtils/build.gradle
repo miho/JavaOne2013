@@ -1,6 +1,8 @@
 apply from: 'jdkdetect.gradle'
 
-apply from: 'lib/gradle/javafx.plugin'
+//apply from: 'lib/gradle/javafx.plugin'
+
+apply plugin: 'java'
 
 repositories {
     mavenCentral()
@@ -38,14 +40,6 @@ sourceSets {
             srcDirs = ['test/']
         }
     }
-}
-
-//javafx {
-//    mainClass "eu.mihosoft.vrl.javaone2013.plot2d.v2.Main"
-//}
-
-jfxDeploy {
-    packaging = "image"
 }
 
 tasks.withType(Compile) {
