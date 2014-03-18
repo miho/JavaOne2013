@@ -9,8 +9,8 @@ JavaOne2013 (Democode for TUT6705)
 
 ## Requirements:
 
-- Java >= 1.8 b106
-- Recommended: NetBeans >= 7.4-RC1 + Gradle Plugin
+- Java >= 1.8 b128
+- Recommended: NetBeans >= 7.4 + Gradle Plugin
 
 ## How To Build & Run From The Command-line
 
