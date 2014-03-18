@@ -1,6 +1,8 @@
 JavaOne2013 (Democode for TUT6705)
 ==================================
 
+[![Build Status](https://travis-ci.org/miho/JavaOne2013.png?branch=master)](https://travis-ci.org/miho/JavaOne2013)
+
 **Webpage:** http://javaone2013.mihosoft.eu
 
 <img src="http://farm4.staticflickr.com/3728/9966367865_548ef4e313_z.jpg">
