@@ -1,6 +1,8 @@
 //apply from: 'https://repository-javafx-gradle-plugin.forge.cloudbees.com/snapshot/javafx.plugin'
 
-apply from: 'lib/gradle/javafx.plugin'
+//apply from: 'lib/gradle/javafx.plugin'
+
+apply plugin: 'java'
 
 repositories {
     mavenCentral()
@@ -62,9 +64,9 @@ sourceSets {
 //    mainClass "eu.mihosoft.vrl.ide.Main"
 //}
 
-jfxDeploy {
-    packaging = "image"
-}
+//jfxDeploy {
+//    packaging = "image"
+//}
 
 //task antlr {
 //    def cmd = "java -jar lib/antlr/antlr-4.1-complete.jar -visitor src/eu/mihosoft/vrl/ide/Java.g4";
