@@ -4,14 +4,9 @@ apply from: 'lib/gradle/javafx.plugin'
 
 repositories {
     mavenCentral()
-    mavenLocal()
     maven {
         url "https://oss.sonatype.org/content/repositories/snapshots"
     }
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.8'
 }
 
 //configurations.all {

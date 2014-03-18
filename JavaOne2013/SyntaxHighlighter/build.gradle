@@ -8,11 +8,6 @@ repositories {
         url "https://oss.sonatype.org/content/repositories/snapshots"
     }
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.5'
-}
-
 String javaVersion = System.getProperty("java.version")
 
 project.ext.set("jdk", 7)
