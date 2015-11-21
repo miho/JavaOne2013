@@ -23,7 +23,6 @@ import javafx.scene.SubScene;
 import javafx.scene.chart.LineChart;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
-import jdk.nashorn.internal.runtime.PropertyListener;
 
 /**
  * FXML Controller class
