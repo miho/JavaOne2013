@@ -67,6 +67,7 @@ sourceSets {
 
 javafx {
     mainClass "eu.mihosoft.vrl.javaone2013.Main"
+    jvmArgs = ['-Dprism.forceGPU=true']
 }
 
 jfxDeploy {
